@@ -38,5 +38,5 @@ export async function OnboardingAction(prevState: unknown, formData: FormData) {
     },
   });
 
-  return redirect("/dashboard");
+  return redirect("/onboarding/grant-id");
 }
